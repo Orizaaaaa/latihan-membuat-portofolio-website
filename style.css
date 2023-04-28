@@ -38,6 +38,29 @@
     padding-right: 60px;
 }
 
+.header .row .col .floating-image {
+    animation-name: float;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+
+@keyframes float {
+    0% {
+        transform: translatey(0px);
+    }
+
+    50% {
+        transform: translatey(-20px);
+    }
+
+    100% {
+        transform: translatey(0px);
+    }
+}
+
+
 .header .row .col button :nth-child(1) {
     background-color: #FC644F;
 }
@@ -47,7 +70,9 @@
     width: 500px;
 
 
+
 }
+
 
 .header .row .col img:nth-child(2) {
     width: 80px;
@@ -92,6 +117,35 @@
 
 /* Akhir Skill */
 
+
+
+/* about */
+
+.about .row {
+    min-height: 90vh;
+}
+
+.about .row .col:nth-child(1) {}
+
+.about .row .col:nth-child(2) {}
+
+
+
+
+.about .row .col img {
+    width: 500px;
+    position: absolute;
+    bottom: 0;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    left: 50%;
+
+}
+
+/* akhir about */
 
 
 /* Resvonsive breakpoint */
