@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+/* font-family: 'Poppins', sans-serif; */
+
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+.header {
+    background-color: #f1faee;
+}
+
+.header .navbar-brand {
+    font-size: 26px;
+}
+
+.header .navbar-nav a {
+    color: black;
+    font-size: 14px;
+    margin-inline: 10px;
+
+}
+
+.header .navbar-nav a:hover {
+    color: #FC644F;
+}
+
+.header .row {
+    min-height: 85vh;
+}
+
+.header .row .col h1 {
+    font-size: 70px;
+    color: #120f30;
+}
+
+.header .row .col p {
+    font-size: 14px;
+    padding-right: 60px;
+}
+
+.header .row .col button :nth-child(1) {
+    background-color: #FC644F;
+}
+
+
+.header .row .col img:nth-child(1) {
+    width: 500px;
+
+
+}
+
+.header .row .col img:nth-child(2) {
+    width: 80px;
+    z-index: 3;
+    top: 20%;
+    right: 21%;
+
+}
+
+.header .row .col img:nth-child(3) {
+    width: 80px;
+    z-index: 4;
+    top: 17%;
+    left: 20%;
+
+
+}
+
+.header .row .col:nth-child(1) div i {
+    color: #dc3545;
+}
+
+/* Skill */
+.skill {
+
+    min-height: 60vh;
+}
+
+.skill .row .col i {
+    color: #312e6a;
+    font-size: 46px;
+    margin-bottom: 20px;
+}
+
+.skill .container>h1 {
+    color: #120f30;
+}
+
+.skill .row .col p {
+    font-size: 12px;
+}
+
+/* Akhir Skill */
+
+
+
+/* Resvonsive breakpoint */
+
+@media screen and (max-width:1200px) {
+    .header .row .col h1 {
+        font-size: 50px;
+    }
+
+    .header .row .col img:nth-child(1) {
+        width: 400px;
+
+    }
+
+    .header .row .col img:nth-child(2) {
+        top: 15%;
+        right: 28%;
+        width: 70px;
+    }
+
+    .header .row .col img:nth-child(3) {
+        top: 15%;
+        left: 17%;
+        width: 70px;
+    }
+
+}
+
+@media screen and (max-width : 992px) {
+
+    .header .row .col img:nth-child(1) {
+        width: 650px;
+
+    }
+
+    .header .row .col img:nth-child(2) {
+        top: 18%;
+        right: 24%;
+        width: 70px;
+    }
+
+    .header .row .col img:nth-child(3) {
+        top: 15%;
+        left: 20%;
+        width: 70px;
+
+    }
+
+
+}
+
+@media screen and (max-width:768px) {
+
+    .header .row .col img:nth-child(1) {
+        width: 400px;
+
+    }
+
+    .header .row .col img:nth-child(2) {
+        top: 18%;
+        right: 25%;
+        width: 70px;
+    }
+
+    .header .row .col img:nth-child(3) {
+        top: 15%;
+        left: 25%;
+        width: 70px;
+    }
+}
+
+
+@media screen and (max-width:576px) {
+
+    .header .row .col img:nth-child(1) {
+        width: 400px;
+
+    }
+
+    .header .row .col img:nth-child(2) {
+        top: 18%;
+        right: 25%;
+        width: 60px;
+
+    }
+
+    .header .row .col img:nth-child(3) {
+        top: 15%;
+        left: 25%;
+        width: 60px;
+
+    }
+}
+
+@media screen and (max-width:475px) {
+
+    .header .row .col img:nth-child(2) {
+        top: 18%;
+        right: 10%;
+        width: 60px;
+
+    }
+
+    .header .row .col img:nth-child(3) {
+        top: 15%;
+        left: 9%;
+        width: 60px;
+
+    }
+
+    .header .row .col h1 {
+        font-size: 40px;
+
+    }
+
+    .header .row .col p {
+        font-size: 12px;
+
+    }
+
+    .header .row .col .lh-lg p {
+        font-size: 12px;
+
+    }
+}
+
+
+@media screen and (max-width: 370px) {
+    .header .row .col h1 {
+        font-size: 30px;
+
+    }
+}
